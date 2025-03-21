@@ -26,7 +26,7 @@
         <h1>Parque Zoológico Municipal de Bauru</h1>
         <p>O Parque Zoológico Municipal de Bauru tem como objetivos auxiliar na conservação da fauna, desenvolver a educação ambiental e a pesquisa científica, além de oferecer à população um espaço que permite a conexão entre as pessoas e a natureza.</p>
         <br>
-        <p>Possuimos um plantel composto por 700 animais de 170 espécies, entre mamíferos, aves, répteis e peixes. A maioria destes animais já nasceu sob cuidados humanos, sendo que uma pequena parcela é composta por animais provenientes da natureza que, vítimas de acidentes com seres humanos, apresentam sequelas que impossibilitam o retorno ao ambiente natural.</p>
+        <p>Possuimos um plantel composto por <strong>700 animais</strong> de <strong>170 espécies</strong>, entre mamíferos, aves, répteis e peixes. A maioria destes animais já nasceu sob cuidados humanos, sendo que uma pequena parcela é composta por animais provenientes da natureza que, vítimas de acidentes com seres humanos, apresentam sequelas que impossibilitam o retorno ao ambiente natural.</p>
       </section>
       
       <section id="horarios">
@@ -41,26 +41,40 @@
   
       <section id="localizacao">
         <h2>Localização</h2>
-        <p>Rodovia Comandante João Ribeiro de Barros (SP-225) | km 232 | 17035-245 | Bauru/SP</p>  
+        <div class="flex-container">
+          <ion-icon name="location"></ion-icon>
+          <p>Rodovia Comandante João Ribeiro de Barros (SP-225) | km 232 | 17035-245 | Bauru/SP</p>  
+        </div>
       </section>
   
-      <section id="contatos">
+      <section id="contato">
         <h2>Contatos</h2>
-        <ul>
-          <li>(14) 3231-2632</li>
-          <li>zoologicodebauru@gmail.com</li>
+        
+            <div class="flex-container">
+              <ion-icon name="call"></ion-icon>
+              <p>(14) 3231-2632</p>
+            </div>
+            <div class="flex-container">
+              <ion-icon name="mail"></ion-icon>
+              <p>zoologicodebauru@gmail.com</p>
+            </div>
+ 
         </ul>
       </section>
       
       <section id="redes-sociais">
         <h2>Redes Sociais</h2>
         <ul id="redes">
-          <li>Instagram</li>
-          <li>Facebook</li>
-          <li>Youtube</li>
+          <a href="https://www.instagram.com/zoobauru/" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a>
+          <a href="https://www.facebook.com/zoo.bauru" target="_blank"><ion-icon name="logo-facebook"></ion-icon></a>
+          <a href="https://www.youtube.com/channel/UCjkWcZbVD3LuRFtH4o0hUTg" target="_blank"><ion-icon name="logo-youtube"></ion-icon></a>
         </ul>  
       </section>
      </div>
   </main>
+
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>  
+
 </body>
 </html>

@@ -60,3 +60,18 @@ li {
 #redes {
   display: flex;
 }
+
+ion-icon {
+  font-size: 20px;
+  margin-right: 0.5rem;
+  color: #69735A;
+}
+
+#redes ion-icon {
+  font-size: 30px;
+}
+
+.flex-container {
+  display: flex;
+  margin-bottom: 10px;
+}
