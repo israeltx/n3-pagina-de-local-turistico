@@ -1,0 +1,32 @@
+* {
+  /* Reset */
+  padding: 0;
+  margin: 0;
+
+  /* Variáveis */
+  --cor-caixa: #F0E8C2;
+}
+
+html {
+  background-image: url(/assets/img-fundo.jpg);
+  background-size: cover;
+}
+
+main {
+  box-sizing: border-box;
+  width: 35%;
+  background-color: var(--cor-caixa);
+  margin: 40px auto;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+#sobre {
+  display: flex;
+  flex-direction: column;
+}
+
+section img {
+  border-radius: 10px;
+  margin-bottom: 2rem;
+}
