@@ -41,25 +41,15 @@ h1, h2 {
   color: var(--cor-titulos);
 }
 
-h1 {
-  font-size: 2.8rem;
-}
+h1 { font-size: 2.8rem; }
 
-h2 {
-  font-size: 2rem;
-}
+h2 { font-size: 2rem; }
 
-li {
-  list-style: none;
-}
+li { list-style: none; }
 
-#horarios li {
-  list-style: inside;
-}
+#horarios li { list-style: inside; }
 
-#redes {
-  display: flex;
-}
+#redes { display: flex; }
 
 ion-icon {
   font-size: 20px;
@@ -67,9 +57,7 @@ ion-icon {
   color: #69735A;
 }
 
-#redes ion-icon {
-  font-size: 30px;
-}
+#redes ion-icon { font-size: 30px; }
 
 .flex-container {
   display: flex;
